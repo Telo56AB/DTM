@@ -15,7 +15,7 @@ Die Berliner Bevölkerungsdaten werden in mehreren Choroplethenkarten gegenüber
 ### Kurzbewertung
 Choroplethenkarten ermöglichen einen schnellen räumlichen Vergleich. Gleichzeitig können Flächengröße und gewählte Klassengrenzen die Wahrnehmung der Verteilung deutlich verändern.
 
-![EP01](assets/EP01_Bevoelkerung_Berlin.png)
+![EP01](EP01_Bevoelkerung_Berlin.png)
 
 ---
 
@@ -27,7 +27,7 @@ Die Standorte der Berliner Kirschbäume wurden auf ein regelmäßiges Hexagongit
 ### Kurzbewertung
 Das regelmäßige Gitter macht räumliche Konzentrationen unabhängig von administrativen Grenzen gut vergleichbar. Das Ergebnis hängt jedoch von Größe und Lage des Gitters ab.
 
-![EP02](assets/EP02_Kirschbaeume_Hexagon.png)
+![EP02](EP02_Kirschbaeume_Hexagon.png)
 
 ---
 
@@ -39,7 +39,7 @@ Für die zweite Darstellung der Kirschbaumdaten wurden die zuvor aggregierten We
 ### Kurzbewertung
 Punktsymbole vermitteln Verteilungen sehr anschaulich und lassen sich gestalterisch flexibel einsetzen. Bei vielen Symbolen kann die Karte jedoch schnell unruhig wirken.
 
-![EP03](assets/EP03_Kirschbaeume_Punktraster.png)
+![EP03](EP03_Kirschbaeume_Punktraster.png)
 
 ---
 
@@ -51,7 +51,7 @@ Die Ergebnisse der ungarischen Parlamentswahl werden für Fidesz und Tisza nach 
 ### Kurzbewertung
 Value-by-Alpha-Darstellungen können mehrere Informationen in einer Karte verbinden. Sehr schwache oder ähnliche Farbabstufungen sind allerdings schwieriger zu unterscheiden.
 
-![EP04](assets/EP04_Ungarn_ValueByAlpha.png)
+![EP04](EP04_Ungarn_ValueByAlpha.png)
 
 ---
 
@@ -63,7 +63,7 @@ Die Karte zeigt internationale Hochschulbeziehungen der BHT für Outgoing-Studie
 ### Kurzbewertung
 Ursprung–Ziel-Karten machen Verbindungen und deren Stärke schnell verständlich. Bei vielen Zielen können sich Linien überlagern, außerdem werden Gebiete am Rand einer orthographischen Projektion stärker verzerrt.
 
-![EP05](assets/EP05_Ursprung_Ziel_BHT.png)
+![EP05](EP05_Ursprung_Ziel_BHT.png)
 
 ---
 
@@ -72,12 +72,12 @@ Ursprung–Ziel-Karten machen Verbindungen und deren Stärke schnell verständli
 ### Berlin
 Ein digitales Höhenmodell von Berlin wurde auf regelmäßige Rasterzellen reduziert. Die Farbskala von Grün über Gelb bis Orange zeigt unterschiedliche Höhen und macht größere Reliefstrukturen schnell sichtbar.
 
-![EP06 Berlin](assets/EP06_Berlin_Tilemap.png)
+![EP06 Berlin](EP06_Berlin_Tilemap.png)
 
 ### Deutschland
 Für die Deutschlandkarte wurden Höhenwerte eines digitalen Geländemodells auf regelmäßige Kacheln übertragen und im Lego-Stil visualisiert. Die vereinfachte Darstellung hebt großräumige Höhenunterschiede hervor, reduziert dabei aber lokale Details.
 
-![EP06 Deutschland](assets/EP06_Deutschland_Tilemap.png)
+![EP06 Deutschland](EP06_Deutschland_Tilemap.png)
 
 ---
 
@@ -89,9 +89,9 @@ Die Animation zeigt den Geminiden-Meteorschauer über Dänemark am 13.12.2025 vo
 ### Kurzbewertung
 Animationen eignen sich sehr gut für zeitabhängige Ereignisse. Einzelne Zeitpunkte lassen sich jedoch schlechter direkt miteinander vergleichen als bei mehreren statischen Karten.
 
-![EP07 Standbild](assets/EP07_Geminiden_Daenemark_Standbild.png)
+![EP07 Standbild](EP07_Geminiden_Daenemark_Standbild.png)
 
-![EP07 Animation](assets/EP07_Geminiden_Daenemark.gif)
+![EP07 Animation](EP07_Geminiden_Daenemark.gif)
 
 ---
 
@@ -103,7 +103,7 @@ Die Animation zeigt die Entwicklung der Windgeschwindigkeit über Europa vom 21.
 ### Kurzbewertung
 Die animierte Darstellung vermittelt die Dynamik eines Wetterereignisses besonders anschaulich. Für das genaue Ablesen einzelner Messwerte ist sie dagegen weniger geeignet als eine klassische quantitative Karte.
 
-![EP08 Animation](assets/EP08_Wind_Europa.gif)
+![EP08 Animation](EP08_Wind_Europa.gif)
 
 ---
 
@@ -112,12 +112,12 @@ Die animierte Darstellung vermittelt die Dynamik eines Wetterereignisses besonde
 ### 2,5D – Jena
 Für Jena wurde ein offizieller LoD1-Gebäudedatensatz des Thüringer Landesamtes für Bodenmanagement und Geoinformation verwendet. Die Gebäude werden anhand der im Datensatz enthaltenen `measuredHeight` extrudiert. So entsteht eine räumliche Darstellung auf Basis amtlicher Gebäudehöhen.
 
-![EP09 2.5D Jena](assets/EP09_Jena_2_5D.png)
+![EP09 2.5D Jena](EP09_Jena_2_5D.png)
 
 ### 3D – Chemnitz Hauptbahnhof
 Für das Umfeld des Chemnitzer Hauptbahnhofs wurde ein offizieller LoD2-Datensatz von GeoSN verwendet. Die Darstellung nutzt die vorhandenen 3D-Geometrien mit ihren Z-Koordinaten; Dach-, Wand- und Bodenflächen wurden für eine bessere Lesbarkeit getrennt symbolisiert.
 
-![EP09 3D Chemnitz](assets/EP09_Chemnitz_3D.png)
+![EP09 3D Chemnitz](EP09_Chemnitz_3D.png)
 
 ### Kurzbewertung
 2,5D-Modelle sind vergleichsweise einfach und ressourcenschonend, vereinfachen aber die Gebäudeform. LoD2-Modelle zeigen reale Dach- und Wandgeometrien deutlich genauer, benötigen dafür jedoch komplexere Daten und mehr Rechenleistung.
